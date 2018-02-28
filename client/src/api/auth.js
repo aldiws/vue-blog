@@ -5,7 +5,7 @@ function errHandler(err){
 }
 
 const auth = axios.create({
-	baseURL: "http:/35.198.234.101:3002/api",
+	baseURL: "http://35.198.234.101:3002/api",
 });
 
 function saveUserInfo({ token, user }) {

@@ -4,7 +4,7 @@
 			<section v-if="!showForm">
 				<h4 class="title">{{ article.title }}</h4>
 				<div class="content">
-					<p>{{ article.content }}</p>
+					<p align="justify">{{ article.content }}</p>
 				</div>
 				<section v-if="$root.user">
 					<div class="media-content">
@@ -130,8 +130,7 @@ export default {
 	#comments-list {
 		margin-left: 2.5rem;
 	}
-
 	#total-comments {
 		margin: 2rem;
-	}
+	}		
 </style>

@@ -39,9 +39,9 @@ export default {
   name: 'app',
   methods: {
 		logout () {
+      this.$router.push('/');
       logout(this.$root);
-      localStorage('clear')
-			this.$router.push('/');
+      localStorage('clear')			
 		},
 	}
 }
